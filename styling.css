@@ -1,0 +1,84 @@
+<style > 
+* {
+    box-sizing: border-box;
+}
+
+html {}
+
+/* Editing of Body */
+
+body {
+    background: url(starry-sky-2051448_1920.jpg) center fixed;
+    color: #ffffff;
+}
+
+/* title */
+
+#header {
+    text-align: center;
+    font-size: 7vw;
+}
+
+/* Lap */
+
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+
+/* Buttons */
+
+#controlscontainer{
+margin-bottom: 100px;
+}
+
+.controls{
+    background-color: #d7A04E;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    padding: 20% 0;
+    font-size: 3vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.controls:active{
+    background-color: #ffffff;
+    color: #d7A04E;
+}
+
+#stopbutton,#resumebutton,#resetbutton{
+display: none;
+}
+
+/* Laps */
+
+
+#laps{
+    max-height: 30vh;
+    overflow-y: scroll;
+}
+
+.lap{
+height: 50px;
+border-bottom: 1px solid white;
+margin: 15px;    
+}
+
+.laptimetitle{
+font-size: 1.5em;
+float: left;    
+}
+
+.laptime{
+font-size: 2em;
+float: right;
+}
+
+</style >
